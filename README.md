@@ -11,9 +11,6 @@
 
 ## Files
  * bin/handler-opentsdb
- *
- *
- *
 
 ## Usage
 
