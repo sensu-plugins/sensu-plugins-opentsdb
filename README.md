@@ -5,7 +5,6 @@
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-opentsdb/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-opentsdb)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-opentsdb/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-opentsdb)
 [![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-opentsdb.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-opentsdb)
-[ ![Codeship Status for sensu-plugins/sensu-plugins-opentsdb](https://codeship.com/projects/a3bf0f00-edb3-0132-c959-1efd3f886df2/status?branch=master)](https://codeship.com/projects/84071)
 
 ## Functionality
 

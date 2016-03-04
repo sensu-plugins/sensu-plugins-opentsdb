@@ -16,16 +16,19 @@ notifications:
     on_failure: always
 script:
 - bundle exec rake default
+- gem build sensu-plugins-opentsdb.gemspec
+- gem install sensu-plugins-opentsdb-*.gem
 deploy:
   provider: rubygems
   api_key:
-    secure: McZO4l/o04vQO/KIKqdJOcyS0K1iNYwkVOYdjqmSdcPzG8G9l1OnBNGiLLZzFowMYp1BFxxcpc7f8TERUj8okVUE2ktQ3aqAd4ZjP6Sli+HUmG5MwJV4alxY5d8tfaXGYEHpiQTtVXqVgdd/rsuJeu22QPDHMjSEkJU7eXPZBGs=
+    secure: eVDl9r643gzx34STOkqMxlvgm/aIjuK25Dg9Bq9lcinlHyKQo/LzkwRgsNm26FOZhSISPedTPgmiB1kh3ydIZOxWO7bWGNnt81HozHvKdBwj1SqfXxtzkvvZUbfiCkDs/VSI7keYnE87XFwhMwb+i2R1manKJrm8AbYUyguzsHE=
   gem: sensu-plugins-opentsdb
   on:
     tags: true
-    all_branches: true
+    repo: sensu-plugins/sensu-plugins-opentsdb
+     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
     rvm: 2.1
     rvm: 2.2
-    repo: sensu-plugins/sensu-plugins-opentsdb
+
